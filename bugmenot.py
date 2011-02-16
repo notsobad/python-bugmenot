@@ -11,14 +11,11 @@ Description:
 Created: 2009-11-09 15:23:41
 Last modified: 2010.11.25
 '''
+
+import optparse
+import sys
 import urllib2
 import re
-import pprint
-
-import os
-import sys
-import traceback
-import optparse
 
 
 class BugMeNot:
